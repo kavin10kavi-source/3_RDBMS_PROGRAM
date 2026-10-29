@@ -1,1 +1,8 @@
+CREATE DATABASE CollegeDB;
+USE CollegeDB;
 
+ALTER TABLE Student
+ADD Email VARCHAR(30);
+ALTER TABLE Student
+ADD Phone_Number NUMERIC(10);
+DESCRIBE Student;
